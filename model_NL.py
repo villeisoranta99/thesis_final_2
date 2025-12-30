@@ -1,6 +1,5 @@
 """
-Model estimation for a the NL-model presented in 
-appendix J. 
+Model estimation for a the NL-model.
 Ville Isoranta / 28.9.2025
 """
 
@@ -89,5 +88,6 @@ distribution can be approximated with a t-test.
 """
 t_test_NL = (mu_NL-1) / std_err_NL
 print(t_test_NL)
+
 
 
