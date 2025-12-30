@@ -1,9 +1,8 @@
 """
-This is the script for computing the joint policy scenario
-of price and egress time chnages 
-discussed in Section 4.2.5 in Figures 12 and 13.
-The search time is set to 1 minute for all
-decision-makers
+This script sets utility functions for computing the joint policy scenario
+of price and egress time changes. 
+The search time is set as 1 minute for all
+decision-makers.
 """
 
 import biogeme.biogeme as bio 
@@ -142,3 +141,4 @@ def model_ini_p_e(p, e):
 
 
     return V_ML, av, CHOI  
+
