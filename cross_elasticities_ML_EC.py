@@ -1,7 +1,6 @@
 """
-Calculation of cross elasticities for the PML model
+Calculation of cross-elasticities for the PML model
 Ville Isoranta 19.11.2025
-Results shown in Sections 4.2.3 and 4.2.4
 """
 """
 Imports necessary expressions.
@@ -295,6 +294,7 @@ print(
     f'Aggregate cross point elasticity of garage wrt search time of on-street parking: '
     f'{cross_elas_term_SS_G:.3g}'
 )
+
 
 
 
