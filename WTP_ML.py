@@ -1,7 +1,6 @@
 """
 WTP_ML.py
 Computation of WTP 
-Reusults are shown in Section 4.2.6
 Ville Isoranta / 29.10.2025
 """
 from IPython.core.display_functions import display
@@ -118,4 +117,5 @@ print(
 print(
     f'Average WTP for SS: {WTP_SS:.3g} ' f'CI:[{WTP_SS_left:.3g}, {WTP_SS_right:.3g}]'
 )
+
 
