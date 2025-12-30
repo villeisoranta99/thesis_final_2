@@ -88,7 +88,7 @@ def model_ini():
     B_AGE_55 = Beta('B_AGE_55', 0, None, None, 0)
 
     """
-    The utility functions as specified in equations 27-29 in Section 3.3.6. 
+    The utility functions as specified in equations 20-22 in Section 3.3.6. 
     """
 
     # Utility function
@@ -130,5 +130,6 @@ def model_ini():
     V_ML = {1: V1_ML , 2: V2_ML , 3: V3_ML } # Joins the choice to the utility function
 
     av = {1: 1, 2: 1, 3:COMM_AVAI_TRAN} # Sets an availability condition
+
 
     return V_ML, av, CHOI
