@@ -2,7 +2,7 @@
 Version: 28.9.2025
 Ville Isoranta
 This is the base model for replicating the sample market shares, see 
-Section 4.2.2 footer 49 for more discussion
+Section 4.2.1 footer 49 for more discussion
 """
 import biogeme.biogeme as bio # import the Biogeme itself
 from biogeme import models # import models from Biogeme
@@ -77,3 +77,4 @@ pandas_results_comp = results_base.get_estimated_parameters()
 
 print ("full results comp")
 print (pandas_results_comp)
+
