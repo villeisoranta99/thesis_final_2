@@ -1,7 +1,5 @@
 """
-Model initialization for a the MNL-model presented in 
-appendix J. The utility functions are mostly similar
-as in the main PML-model. See Appemdix J
+Model estimation for a the MNL-model
 Ville Isoranta / 29.10.2025
 """
 import biogeme.biogeme as bio 
@@ -56,5 +54,6 @@ print (results_MNL.short_summary ())
 pandas_results_MNL = results_MNL.get_estimated_parameters()
 print ("full results")
 print (pandas_results_MNL)
+
 
 
