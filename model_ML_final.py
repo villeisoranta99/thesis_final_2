@@ -1,6 +1,5 @@
 """
-Model initialization for a the PML-model presented in Equations 6-8
-in Section 3.3.2
+Model estimation for a the PML-model presented in Table 15
 Ville Isoranta / 17.11.2025
 """
 import biogeme.biogeme as bio 
@@ -60,4 +59,5 @@ print(results.short_summary())
 pandas_results = results.get_estimated_parameters()
 pandas_results
 print(pandas_results)
+
 
