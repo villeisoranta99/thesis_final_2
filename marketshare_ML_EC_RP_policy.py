@@ -1,5 +1,5 @@
 """
-This script computes the policy scenarios described in Section 3.3.6
+This script computes the policy scenarios.
 Version 21.10.2025
 Ville Isoranta
 """
