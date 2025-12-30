@@ -1,8 +1,8 @@
 """
-This is the script for computing the egress time-based policy scenatios presented
-in Section 4.2.5 in Figure 10.
+This script sets utility functions for computing the egress time-based 
+policy scenatios.
 The search time and price are
-the current values reported by respondents
+the current values reported by respondents.
 """
 
 import biogeme.biogeme as bio 
@@ -135,3 +135,4 @@ def model_ini_egress(i):
 
 
     return V_ML, av, CHOI
+
