@@ -7,13 +7,11 @@ The search time is set to 1 minute for all
 decision-makers. The egress time is set as 
 0 as this script examines only the 
 effect of price change on modal share.
-See another script for the effect of
-sole egress time change given the 1 minute
-search time.
 The synergestic scenario (i.e previous
 script) is compared in Figure 13 to the
 sum of the car modal share reduction obtained
-from this script and the next script
+from this script and the EC_init_final_policy_egress_synergy 
+script
 """
 
 
@@ -101,7 +99,7 @@ def model_ini_price_synergy(i):
     CONST = Beta('CONST', 0.781, None, None, 1)
 
     """
-    The utility functions as specified in Equations 27-29 in Section 3.3.6. The 
+    The utility functions as specified in pages 78-79 in Section 3.3.6. The 
     calibration constant was added to utility function of both car
     alternative as discussed in Section 3.3.6.
     """
@@ -154,5 +152,6 @@ def model_ini_price_synergy(i):
     V_ML = {1: V1_ML , 2: V2_ML , 3: V3_ML } # Joins the choice to the utility function
 
     av = {1: 1, 2: 1, 3:COMM_AVAI_TRAN} # Sets an availability condition
+
 
     return V_ML, av, CHOI
