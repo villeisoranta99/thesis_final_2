@@ -1,6 +1,6 @@
 """
 Model initialization for a the MNL-model presented in 
-appendix D. The utility functions are mostly similar
+appendix J. The utility functions are mostly similar
 as in the main PML-model. See Appemdix J
 Ville Isoranta / 29.10.2025
 """
@@ -56,4 +56,5 @@ print (results_MNL.short_summary ())
 pandas_results_MNL = results_MNL.get_estimated_parameters()
 print ("full results")
 print (pandas_results_MNL)
+
 
