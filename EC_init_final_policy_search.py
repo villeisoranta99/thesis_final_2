@@ -1,8 +1,7 @@
 """
-This is the script for computing the search time-based policy scenatios presented
-in Section 4.2.5 in Figure 11.
+This script sets utility functions for computing the search time policy scenario.
 The egress time and price are
-the current values reported by respondents
+the current values reported by respondents.
 """
 import biogeme.biogeme as bio 
 from biogeme import models 
@@ -134,3 +133,4 @@ def model_ini_search(i):
 
 
     return V_ML, av, CHOI
+
