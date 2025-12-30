@@ -1,7 +1,7 @@
 """"
 EC_init_final.py / Ville Isoranta 17.11.2025 22.05
 This script initializes the utility functions for the PML model 
-based on equations 6-8 in Section 3.3.2.
+based on Equations 6-8 in Section 3.3.2.
 """
 from biogeme.expressions import Beta, bioDraws
 import numpy as np
@@ -117,5 +117,6 @@ def model_ini():
     V_ML = {1: V1_ML , 2: V2_ML , 3: V3_ML} # Joins the choice to the utility function
 
     av = {1: 1, 2: 1, 3:COMM_AVAI_TRAN} # Sets an availability condition
+
 
     return V_ML, av, CHOI
