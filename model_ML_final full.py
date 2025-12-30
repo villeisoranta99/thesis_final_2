@@ -1,9 +1,5 @@
 """
-Model initialization for a the ML-model model
-containing the secondary sample presented in 
-Appendix H
-(i.e. persons with and without public
-transport accessibility). 
+Estimates the PML model for the secondary sample. 
 Ville Isoranta / 29.10.2025
 """
 import biogeme.biogeme as bio # import the Biogeme itself
@@ -66,4 +62,5 @@ print(results.short_summary())
 pandas_results = results.get_estimated_parameters()
 pandas_results
 print(pandas_results)
+
 
