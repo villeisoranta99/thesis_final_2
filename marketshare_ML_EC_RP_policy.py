@@ -138,7 +138,7 @@ Price and search time are the current price and
 search time for each decision-maker. 
 For clarity, the following codes are not commented as they
 are identical to the above code. Only the argument 
-used to call the utility function script chnages from
+used to call the utility function script changes from
 price to egress time (and later to search time)
 """
 print("EGRESS TIMES RANGE 0-10")
