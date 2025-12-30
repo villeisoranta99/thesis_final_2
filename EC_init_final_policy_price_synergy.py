@@ -1,17 +1,12 @@
 """
-This is the script for computing the synergy in joint
-price egress time change compared to the 
-separate change solely in price. The results
-are shown in Figure 13 in Section 4.2.5.
+This a script that sets utility functions for 
+computing the synergy in the joint
+price-egress time change compared to the 
+separate change solely in price. 
 The search time is set to 1 minute for all
 decision-makers. The egress time is set as 
 0 as this script examines only the 
 effect of price change on modal share.
-The synergestic scenario (i.e previous
-script) is compared in Figure 13 to the
-sum of the car modal share reduction obtained
-from this script and the EC_init_final_policy_egress_synergy 
-script
 """
 
 
@@ -155,3 +150,4 @@ def model_ini_price_synergy(i):
 
 
     return V_ML, av, CHOI
+
