@@ -1,14 +1,8 @@
 """
-This is the script for computing the market share
+This script sets utility functions for computing the market share
 predicted by the uncalibrated model based on the
 current price, egress time, and search times
-of the respondents as discussed in Section 3.3.6 .
-This script sets the utility functions
-and is called from another script.
-Based on these results a constant CONST
-was set as 0.781 to replicate exactly the car modal
-share observed in the data as stated
-in Section 3.3.6
+of the respondents.
 """
 
 import biogeme.biogeme as bio 
@@ -133,3 +127,4 @@ def model_ini():
 
 
     return V_ML, av, CHOI
+
