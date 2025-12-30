@@ -1,6 +1,7 @@
 """
 Calculation of direct elasticities for the PML model
 Ville Isoranta 19.11.2025 
+Results shown in Section 4.2.2
 """
 """
 Imports necessary expressions.
@@ -177,5 +178,6 @@ print(
     f'Aggregate direct point elasticity for the search time of on-street parking: '
     f'{direct_elas_term_SS:.3g}'
 )
+
 
 
