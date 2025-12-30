@@ -1,9 +1,8 @@
 """
-This is the script for computing the market share
-predicted by the model based on the
-current price, egress time, and search times
-of the respondents as discussed in Section 3.3.6 
-using the calibrated model.
+This script initialises utility functions for computing the market share
+predicted by the calibrated model based on the
+current price, egress time, and search time
+of the respondents.
 """
 
 import biogeme.biogeme as bio 
@@ -130,5 +129,6 @@ def model_ini():
     V_ML = {1: V1_ML , 2: V2_ML , 3: V3_ML } # Joins the choice to the utility function
 
     av = {1: 1, 2: 1, 3:COMM_AVAI_TRAN} # Sets an availability condition
+
 
     return V_ML, av, CHOI
