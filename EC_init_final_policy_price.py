@@ -1,8 +1,8 @@
 """
-This is the script for computing the price-based policy scenatios presented
-in Section 4.2.5 in Figure 9.
-The egress and search time are
-the current values reported by respondents
+This script sets utility functions for computing the price-based policy 
+scenario.
+The egress and search times are
+the current values reported by respondents.
 """
 import biogeme.biogeme as bio 
 from biogeme import models 
@@ -147,3 +147,4 @@ def model_ini(i):
 
 
     return V_ML, av, CHOI
+
